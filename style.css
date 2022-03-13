@@ -1,0 +1,154 @@
+
+
+
+/*Para darle formato al texto del menú de navegación y mostrarlos en linea*/
+
+#top{	
+	z-index:1;
+	
+	text-transform: uppercase;
+	position: fixed;
+	background-color: black;
+	color: white;
+	width:100%;
+	margin:0;
+	padding:1px;
+	display: inline;
+	top: 0;
+	left:0;
+	font-size: 28px;
+	text-align:center;
+
+}
+nav a{	  text-shadow: 1px 1px 1px black;
+	  text-decoration: none;
+	font-size: 28px;
+	color: white;
+	font-family: 'Bodoni Moda', serif;
+}
+
+.to_top{
+	display: none;
+
+
+
+}
+
+/*Para modificar el comportamiento de los enlaces del menú de navegación cuando le ponemos el cursor encima*/
+nav a:hover{	  
+	text-shadow: 0.5px 0.5px 1px beige;
+	text-decoration: none;
+	font-size: 28px;
+	color: white;
+	border-bottom-style: solid;
+	border-color: white;
+	border-width: 5px;
+	
+
+}
+
+
+
+.need{	 
+	/*float:left;*/
+	
+	
+	
+
+}
+.Tecnologias{
+  clear: left;
+}
+
+/*Ajusta el tamaño del h2 para que Necesidad sinopsis etc se vea mas grande y en gris*/
+
+h2 {	padding-top:33px;
+	color: #332F2C;	
+	margin-left: 20px;
+	font-size: 40px;
+	font-family: 'Bodoni Moda', serif;
+	
+	
+
+	
+}
+.need_value.main{
+	padding-top:0px;
+	
+
+}
+.need_value{
+	  
+	
+}
+.need_title{
+	
+}
+h3 {	font-size: 30px;
+	color: #646B63;
+	
+}
+
+body {
+	  text-align: justify;
+	font-size:23px;
+	background-color: #F5F5F1;
+	font-family: 'Roboto', sans-serif;
+	font-weight: bold;
+  	width: 100%;
+	padding-bot:0;
+	
+}
+
+#Sinopsis 
+{
+	margin-top:50px;
+
+}
+
+.section
+{	padding-left:22%; /*usando % en vez de px lo hacemos responsivo*/
+	padding-right:22%;
+	 
+
+}
+
+.need {
+	
+	
+  	
+}
+.media-container {
+    margin-top: 40px;
+    position: relative;
+    width: 100%;
+    height: 0;
+    padding-bottom: 56.25%;
+}
+iframe.media {
+    position: absolute;
+    width: 80%;
+    height: 80%;
+    margin-left:10%;
+
+}
+
+img.media{
+    position: relative;
+    width:80%;
+    height:80%;	
+    margin-left:10%;
+}
+
+@media only screen and (max-width: 768px) {
+	body{
+	padding-left:10%; 
+	padding-right:10%;
+	margin-right:0;
+	margin-left:0;
+	background-color: lightblue;
+}
+	#top{	
+	
+}
+}
