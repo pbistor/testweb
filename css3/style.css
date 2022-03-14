@@ -1,0 +1,150 @@
+#top{	
+	z-index:1;
+	
+	text-transform: uppercase;
+	position: fixed;
+	background-color: #212121;
+	color: white;
+	width:100%;
+	margin:0;
+	padding:15px;
+	display: inline;
+	top: 0;
+	left:0;
+	font-size: 28px;
+	text-align:center;
+
+}
+nav a{	  text-shadow: 1px 1px 1px black;
+	  text-decoration: none;
+	font-size: 28px;
+	color: white;
+	font-family: 'Prompt', serif;
+	padding:8px;
+}
+
+.to_top{
+	
+	background:#212121;
+	position:fixed;
+	right:0;
+	bottom:0;
+}
+.to_top a{
+	padding-top:20px;
+	padding-left:30px;
+}
+to_top a:hover{
+	background:#4D4D4D;
+	padding-top:20px;
+	padding-left:30px;
+}
+/*Para modificar el comportamiento de los enlaces del menú de navegación cuando le ponemos el cursor encima*/
+nav a:hover{	  
+	text-shadow: 0.5px 0.5px 1px beige;
+	text-decoration: none;
+	font-size: 28px;
+	padding:8px;
+	background:#4D4D4D;
+	color: white;
+	border-bottom-style: solid;
+	border-color: red;
+	border-width: 2px;
+	border-radius: 25px;
+
+}
+#Sinopsis{
+	margin-top: 5%;
+	margin-left:25%;
+	margin-right:25%;
+	border-style:solid;
+	border-color: red;
+	border-width: 2px;
+	border-radius: 25px;
+	padding:10%;
+}
+
+h2{
+	color:rgb(175, 32, 32);
+	font-family: 'Prompt', serif;
+}
+h3{
+	color:#CE3F3F;
+	font-family: 'Prompt', sans;
+}
+
+body{
+	background:rgb(86, 191, 86,0.5);
+}
+
+ #Necesidades{
+	padding-left:20%;
+	padding-right:20%;
+	margin-left:-10%;
+	marging-right:-10%;
+	width:auto;
+	background:white;
+}
+
+.media{width:80%; margin-left:5%;}
+.need{
+  float: left;
+  width: 30.33%;
+  margin-right: 2%;
+}
+
+
+.need:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+#Tecnologias{
+   clear:left;
+	padding-left:20%;
+	padding-right:20%;
+	margin-left:-10%;
+	marging-right:-10%;
+	width:auto;
+	background:white;
+}
+#Impacto{
+	margin-left:25%;
+	margin-right:25%;
+	border-style:solid;
+	border-color: red;
+	border-width: 2px;
+	border-radius: 25px;
+	padding:10%;}
+
+p{  font-family:helvetica;
+	text-align: justify;
+}
+
+hr{color:red;}
+
+@media screen and (max-width: 600px) {
+  .need {
+    width: 100%;
+  }
+#top{	
+	
+	display:none;
+
+}
+#Sinopsis{
+	
+	width:75%;
+	margin-left:2%;
+	margin-right:2%;
+	
+	padding:3%;
+}
+#Impacto{
+	
+	width:75%;
+	margin-left:2%;
+	margin-right:2%;
+	
+	padding:3%;
+}
