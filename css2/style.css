@@ -1,0 +1,142 @@
+
+h2 {
+	
+}
+
+#top{
+	z-index:1;
+	position: fixed;
+	padding-right:6%;
+	
+	top=0;
+	left=0;
+	background-color: rgb(0, 140, 0);
+	overflow-x: hidden;
+
+
+}
+nav a{ 
+	color:white;
+	padding: 20%;
+
+	text-decoration: none;
+	display: block;
+	
+}
+
+nav a:hover {
+  background-color: rgb(48, 189, 48); 
+  color: black;
+
+  
+padding-right:200%;
+}
+.section {
+  margin-left: 200px;
+  padding-left: 20px;
+}
+
+body{
+	background-color: #FFF1FA;
+}
+
+#Sinopsis{
+	background: yellow;
+	padding-top: 40px;
+	margin-top:-5%;
+	width :50%;
+	border-style:solid;
+	border-width: 20px;
+	border-color:yellow;
+  	border-radius: 50px;
+
+}
+
+#Necesidades{
+	background: rgb(214,0,0);
+	width: 70%;
+	margin-left: 20%;
+}
+.need1{ color: white;
+	margin-top:5px;
+	margin-left:-10%;
+	background: rgb(55.7, 0, 53.3);
+	border-style:solid;
+	border-width: 20px;
+	border-color:rgb(55.7, 0, 53.3);
+  	border-radius: 50px;
+	width:90%;
+}
+/*cambio need en el html y lo divido entre div y div 2*/
+
+.need2{ color:white;
+	margin-top:5px;
+	margin-left:10%;
+	margin-right:-10%;
+	background: orange;
+	width: 100%
+	border-style:solid;
+	border-width: 20px;
+	border-color:rgb(59.87, 29.9, 66.74);
+  	border-radius: 50px;
+}
+
+#Impacto{
+	margin-left: 0;
+	width:40%;
+	background:rgb(3.1, 32.9, 53.7);
+	color:white;
+}
+
+#Tecnologias{
+	background:rgb(65.9, 80.8, 0);
+	width:50%;
+	float:right;
+	margin-top:-4%;
+}
+#Referencias{
+	background:yellow;
+	margin-bottom: -50%;   
+	border-style:solid;
+	border-width: 20px;
+	border-color:yellow;
+  	border-radius: 50px;
+}
+
+h2{
+	font-family: 'Sansita Swashed', cursive;
+	font-size: 30px;
+	margin-left: 15px;
+	}
+p{
+	
+	margin-left: 10px;
+	    font-family: Helvetica, Sans-Serif;
+
+	}
+
+h3{
+	
+	margin-left: 10px;
+	    font-family: Helvetica, Sans-Serif;
+
+	}
+.to_top{
+	display: none;
+}
+hr{
+	visibility: hidden
+}
+
+
+img.media{
+    position: relative;
+    width:80%;
+    height:80%;	
+    margin-left:10%;
+}
+iframe{
+    position: relative;	
+    margin-left:30%;
+    margin-right:30%;
+}
